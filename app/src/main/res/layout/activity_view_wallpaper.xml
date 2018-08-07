@@ -107,6 +107,8 @@
         app:layout_anchorGravity="bottom|left|end"
         android:backgroundTint="@android:color/white"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>  
+        android:layout_height="wrap_content"/>
+
+
 
 </android.support.design.widget.CoordinatorLayout>
