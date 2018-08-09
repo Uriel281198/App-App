@@ -16,7 +16,7 @@ import walpaper.appchan.com.appchan.Database.Recents;
  */
 @Dao
 public interface RecentsDAO {
-    @Query("SELECT + FROM recents ORDER BY saveTime DESC LIMIT 10")
+    @Query("SELECT * FROM recents ORDER BY saveTime DESC LIMIT 10")
     Flowable<List<Recents>> getAllRecents();
 
     @Insert
