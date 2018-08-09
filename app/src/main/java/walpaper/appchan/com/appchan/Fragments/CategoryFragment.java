@@ -1,8 +1,6 @@
 package walpaper.appchan.com.appchan.Fragments;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -12,7 +10,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -22,10 +19,7 @@ import com.squareup.picasso.Callback;
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 
-import java.util.List;
-
 import walpaper.appchan.com.appchan.Activities.ListImages;
-import walpaper.appchan.com.appchan.Activities.ViewWallpaper;
 import walpaper.appchan.com.appchan.Common.Common;
 import walpaper.appchan.com.appchan.Interface.ItemClickListener;
 import walpaper.appchan.com.appchan.Model.CategoryItem;
